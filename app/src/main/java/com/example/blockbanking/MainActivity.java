@@ -54,7 +54,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         GetID();
         setSupportActionBar(toolbar);
 
-        //setup Database
+        //setup Database    
         firebaseAuth = FirebaseAuth.getInstance();
         uid = firebaseAuth.getUid();
         firebaseDatabase = FirebaseDatabase.getInstance();

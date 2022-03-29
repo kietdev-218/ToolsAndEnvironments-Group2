@@ -18,7 +18,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.example.blockbanking.Adapter.UserAdapter;
 import com.example.blockbanking.Interface.UserEventListener;
 import com.example.blockbanking.Models.User;
-import com.example.blockbanking.UI.Login;
+import com.example.blockbanking.UI.Login;   
 import com.example.blockbanking.UI.TranHis;
 import com.example.blockbanking.UI.Tranfer;
 import com.example.blockbanking.UI.UserInfo;

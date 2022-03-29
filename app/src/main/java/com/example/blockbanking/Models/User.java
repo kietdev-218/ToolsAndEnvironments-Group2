@@ -14,7 +14,7 @@ public class User {
         this.name = name;
         this.birthday = birthday;
         this.phoneNum = phoneNum;
-        this.money = 0;
+        this.money = 0;  
         this.uid = uid;
         CreateNumCard();
 

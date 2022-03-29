@@ -10,7 +10,7 @@ public class Block {
     private Data data;
     private int x;
 
-    public Block() {
+    public Block() {       
     }
 
     public Block(Data data, String uids, String uidt,String prehash) {

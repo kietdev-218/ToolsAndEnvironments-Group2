@@ -36,6 +36,8 @@ public class TranferHandling {
         return null;
     }
 
+
+
     public User FindUserTake(List<User> users, String numberCard){
         for (User user : users){
             if (user.getNumberCard().equals(numberCard)){

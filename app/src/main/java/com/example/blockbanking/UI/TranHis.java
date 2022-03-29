@@ -31,7 +31,7 @@ public class TranHis extends AppCompatActivity{
     private List<Block> blocks = new ArrayList<>();
     private Bundle bundle;
     private String uid;
-    @Override
+    @Override     
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tran_his);

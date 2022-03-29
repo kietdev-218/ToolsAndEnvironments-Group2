@@ -7,7 +7,7 @@ import java.util.List;
 
 public class TranferHandling {
     public TranferHandling() {
-    }
+    }  
 
     public boolean CheckMoney(User user, String money){
         if (user.getMoney() >= Long.valueOf(money)){

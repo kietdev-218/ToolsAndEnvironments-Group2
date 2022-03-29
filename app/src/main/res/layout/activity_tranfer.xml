@@ -16,7 +16,7 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/logo5"
-        tools:layout_editor_absoluteX="146dp"
+        tools:layout_editor_absoluteX="146dp"    
         tools:layout_editor_absoluteY="264dp" />
 
     <EditText

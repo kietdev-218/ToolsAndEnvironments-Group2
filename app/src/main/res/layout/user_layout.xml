@@ -22,7 +22,7 @@
             android:layout_marginBottom="3dp"
             android:maxLines="3"
             android:textSize="18sp"
-            android:text="Nguyen Anh Kiet"/>
+            android:text="Nguyen Anh Kiet"/>   
 
         <TextView
             android:id="@+id/birthdayView"

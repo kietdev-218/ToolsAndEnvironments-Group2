@@ -16,7 +16,7 @@
                 android:title="Check" />
         </menu>
     </item>
-    <item android:title="User">
+    <item android:title="User">    
         <menu>
             <item
                 android:id="@+id/logout"

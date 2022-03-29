@@ -20,7 +20,7 @@
         android:id="@+id/tvcheck"
         android:layout_width="358dp"
         android:layout_height="119dp"
-        android:text="Check"
+        android:text="Check"     
         android:textSize="50dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

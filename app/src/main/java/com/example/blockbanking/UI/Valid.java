@@ -26,7 +26,7 @@ import java.util.List;
 public class Valid extends AppCompatActivity implements ValueEventListener {
     private TextView textView;
     private FirebaseDatabase firebaseDatabase;
-    private DatabaseReference databaseReference;
+    private DatabaseReference databaseReference;   
     private List<Block> blocks1, blocks2;
     private boolean x = true;
     private Button buttonfix;      

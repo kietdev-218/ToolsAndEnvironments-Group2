@@ -15,14 +15,14 @@ import com.example.blockbanking.MainActivity;
 import com.example.blockbanking.R;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
-import com.google.firebase.auth.AuthResult;
+import com.google.firebase.auth.AuthResult;     
 import com.google.firebase.auth.FirebaseAuth;
 
 public class Login extends AppCompatActivity implements FirebaseAuth.AuthStateListener {
     private EditText lemail, lpass;
     private Button llogin;
     private TextView signup, forgetpass;
-    private FirebaseAuth firebaseAuth;
+    private FirebaseAuth firebaseAuth;         
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,7 +33,7 @@ public class Login extends AppCompatActivity implements FirebaseAuth.AuthStateLi
 
         firebaseAuth = FirebaseAuth.getInstance();
         firebaseAuth.signOut();
-
+      
         llogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

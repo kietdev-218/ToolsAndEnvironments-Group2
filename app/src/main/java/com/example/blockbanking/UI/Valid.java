@@ -26,10 +26,10 @@ import java.util.List;
 public class Valid extends AppCompatActivity implements ValueEventListener {
     private TextView textView;
     private FirebaseDatabase firebaseDatabase;
-    private DatabaseReference databaseReference;
+    private DatabaseReference databaseReference;   
     private List<Block> blocks1, blocks2;
     private boolean x = true;
-    private Button buttonfix;
+    private Button buttonfix;      
     private int index = -1;
 
     @Override
@@ -39,7 +39,7 @@ public class Valid extends AppCompatActivity implements ValueEventListener {
         getSupportActionBar().setTitle("Valid");
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         textView = findViewById(R.id.tvcheck);
-        buttonfix = findViewById(R.id.btnFix);
+        buttonfix = findViewById(R.id.btnFix);               
         blocks1 = new ArrayList<>();
         blocks2 = new ArrayList<>();
         firebaseDatabase = FirebaseDatabase.getInstance();
@@ -50,7 +50,7 @@ public class Valid extends AppCompatActivity implements ValueEventListener {
             @Override
             public void onClick(View v) {
                 databaseReference.child("HisTransaction").child(index + "").setValue(blocks2.get(index));
-                Toast.makeText(getApplicationContext(), "Fix Done", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(), "Fix Done", Toast.LENGTH_SHORT).show();         
                 startActivity(new Intent(getApplicationContext(), MainActivity.class));
                 finish();
             }
@@ -94,7 +94,7 @@ public class Valid extends AppCompatActivity implements ValueEventListener {
             textView.setText("Chain is valid");
         } else {
             textView.setText("Chain isn't valid");
-            buttonfix.setVisibility(View.VISIBLE);
+            buttonfix.setVisibility(View.VISIBLE);     
         }
     }
 

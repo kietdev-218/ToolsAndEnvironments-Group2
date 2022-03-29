@@ -19,7 +19,7 @@
         app:srcCompat="@drawable/logo3" />
 
 
-    <EditText
+    <EditText     
         android:id="@+id/lemail"
         android:layout_width="0dp"
         android:layout_height="wrap_content"

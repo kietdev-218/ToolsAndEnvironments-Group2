@@ -15,7 +15,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.example.blockbanking.Handling.TranferHandling;
 import com.example.blockbanking.MainActivity;
 import com.example.blockbanking.Models.Block;
-import com.example.blockbanking.Models.Data;
+import com.example.blockbanking.Models.Data;  
 import com.example.blockbanking.Models.User;
 import com.example.blockbanking.R;
 import com.google.firebase.database.DataSnapshot;

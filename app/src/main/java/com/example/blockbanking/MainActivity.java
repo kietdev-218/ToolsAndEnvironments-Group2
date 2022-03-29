@@ -18,7 +18,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.example.blockbanking.Adapter.UserAdapter;
 import com.example.blockbanking.Interface.UserEventListener;
 import com.example.blockbanking.Models.User;
-import com.example.blockbanking.UI.Login;
+import com.example.blockbanking.UI.Login;   
 import com.example.blockbanking.UI.TranHis;
 import com.example.blockbanking.UI.Tranfer;
 import com.example.blockbanking.UI.UserInfo;
@@ -54,7 +54,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         GetID();
         setSupportActionBar(toolbar);
 
-        //setup Database
+        //setup Database    
         firebaseAuth = FirebaseAuth.getInstance();
         uid = firebaseAuth.getUid();
         firebaseDatabase = FirebaseDatabase.getInstance();
@@ -100,7 +100,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         toolbar = findViewById(R.id.toolbar);
         userList = findViewById(R.id.user_list);
     }
-
+                
     @Override
     public boolean onNavigationItemSelected(@NonNull MenuItem item) {
         switch (item.getItemId()) {

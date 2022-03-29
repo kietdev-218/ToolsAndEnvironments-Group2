@@ -7,7 +7,7 @@ import java.util.List;
 
 public class TranferHandling {
     public TranferHandling() {
-    }
+    }  
 
     public boolean CheckMoney(User user, String money){
         if (user.getMoney() >= Long.valueOf(money)){
@@ -35,6 +35,8 @@ public class TranferHandling {
         }
         return null;
     }
+
+
 
     public User FindUserTake(List<User> users, String numberCard){
         for (User user : users){

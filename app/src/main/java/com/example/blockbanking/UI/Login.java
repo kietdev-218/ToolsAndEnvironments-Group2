@@ -22,7 +22,7 @@ public class Login extends AppCompatActivity implements FirebaseAuth.AuthStateLi
     private EditText lemail, lpass;
     private Button llogin;
     private TextView signup, forgetpass;
-    private FirebaseAuth firebaseAuth;
+    private FirebaseAuth firebaseAuth;         
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,7 +33,7 @@ public class Login extends AppCompatActivity implements FirebaseAuth.AuthStateLi
 
         firebaseAuth = FirebaseAuth.getInstance();
         firebaseAuth.signOut();
-
+      
         llogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

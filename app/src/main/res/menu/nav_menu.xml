@@ -8,7 +8,7 @@
                 android:title="Transfers" />
         </menu>
     </item>
-    <item android:title="Security">
+    <item android:title="Security">     
         <menu>
             <item
                 android:id="@+id/valid"

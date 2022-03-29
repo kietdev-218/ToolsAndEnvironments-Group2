@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "109395161366",
+    "firebase_url": "https://block-banking-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "block-banking",
+    "storage_bucket": "block-banking.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:109395161366:android:b180d77bc6f0bbb07a6037",
+        "android_client_info": {
+          "package_name": "com.example.blockbanking"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "109395161366-9cgankukklrbrs1b2ekt7esqir7qqkf7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAgY584Qw6Pc1KJLtgvVS5tfx8kX0za9x4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "109395161366-9cgankukklrbrs1b2ekt7esqir7qqkf7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
